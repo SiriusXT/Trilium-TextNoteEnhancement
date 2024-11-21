@@ -17,6 +17,7 @@ let timeOutId;
 function updateData() {
   zoteroData = JSON.parse(fs.readFileSync(zoteroJsonFilePath, 'utf-8'));
   zoteroData = zoteroData['items'];
+    console.log(zoteroData);
   for (const index in zoteroData) {
     if (showFields.includes('creators')){
       if (zoteroData[index].creators) {
@@ -47,11 +48,12 @@ fs.watch(zoteroJsonFilePath, (eventType, filename) => {
       clearTimeout(timeOutId);
       timeOutId = setTimeout(() => {
         canUpdata = true;
-      }, 3000);
+          updateData();
+      }, 2000);
     }
     console.log(`File changed: ${filename}`);
 
-    updateData();
+    
   }
 });
 
