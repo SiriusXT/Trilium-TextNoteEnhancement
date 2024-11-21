@@ -1,6 +1,6 @@
-### Some widgets enhance trilium text input efficiency
+## Some widgets enhance trilium text input efficiency
 
-#### Information
+### Information
 
 [https://https://github.com/SiriusXT/Trilium-TextNoteEnhancement](https://https://github.com/SiriusXT/Trilium-TextNoteEnhancement)
 
@@ -8,7 +8,8 @@ Version: 0.1
 
 Release date: 2024/11/21
 
-#### Detail
+### Detail
+You need to add #widget label to all js files you want to enable.
 
 Ctrl+F: Calling trilium's own find.js
 
