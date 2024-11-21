@@ -17,7 +17,6 @@ let timeOutId;
 function updateData() {
   zoteroData = JSON.parse(fs.readFileSync(zoteroJsonFilePath, 'utf-8'));
   zoteroData = zoteroData['items'];
-    console.log(zoteroData);
   for (const index in zoteroData) {
     if (showFields.includes('creators')){
       if (zoteroData[index].creators) {
