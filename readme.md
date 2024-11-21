@@ -25,4 +25,4 @@ Convert the single-line input box of the formula editor to multiple lines.js
 
 Alt+\[ and Alt+\]: Convert selected text to superscript or subscript.js
 
-Alt+Z: Insert zotero reference.js: You need to export the `BetterBibTeX JSON` from Zotero. When exporting, make sure to select `items`, and then specify the export location in `Insert zotero reference.js`.
+Alt+Z: Insert zotero reference.js: You need to export the `BetterBibTeX JSON` from Zotero. When exporting, make sure to select `items`, and then specify the export location in `Insert zotero reference.js`. Contains only basic information citations
