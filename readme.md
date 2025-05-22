@@ -11,8 +11,6 @@ Release date: 2024/11/21
 ### Detail
 You need to add #widget label to all js files you want to enable.
 
-Ctrl+F: Calling trilium's own find.js
-
 Alt+2-6: Insert title, Alt+1: Insert paragraph
 
 Alt+L: Convert selected text to a link
@@ -20,8 +18,6 @@ Alt+L: Convert selected text to a link
 Alt+H: Adds a yellow background to selected text
 
 Alt+F: Convert selected text to formula, If a paragraph is selected, it will be converted into a paragraph formula
-
-Convert the single-line input box of the formula editor to multiple lines.js
 
 Alt+\[ and Alt+\]: Convert selected text to superscript or subscript.js
 
